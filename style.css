@@ -211,6 +211,22 @@ p{
 #top10 .project-item:hover .project-img img{
     transform: scale(1.1);
 }
+#top10 .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: rgb(109, 13, 13);
+    background-color: transparent;
+    border: 2px solid rgb(109, 13, 13);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
 
 /*Keyframes*/
 @keyframes text_reveal{
